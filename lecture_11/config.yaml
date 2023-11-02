@@ -1,5 +1,5 @@
 httpServer:
-  port: 9233
+  port: 9226
   shutdownTimeout: 2m
 
 database:
