@@ -1,0 +1,14 @@
+httpServer:
+  port: 9226
+  shutdownTimeout: 2m
+
+database:
+  host: localhost
+  port: 5432
+  username: localhost
+  password: 1234
+  dbname: event_test
+
+dependencies:
+  api_key: ADCDEGB256387426
+  other_setting: event
