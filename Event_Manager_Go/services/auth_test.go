@@ -1,13 +1,11 @@
 package services
 
 import (
+	"Event_Manager_Go/model"
 	"context"
 	"crypto/rand"
 	"crypto/rsa"
 	"fmt"
-	"github.com/burenotti/rtu-it-lab-recruit/model"
-	"github.com/go-faker/faker/v4"
-	"github.com/golang-jwt/jwt/v5"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	mrand "math/rand"

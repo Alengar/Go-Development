@@ -1,12 +1,12 @@
 package services
 
 import (
+	"Event_Manager_Go/model"
 	"context"
 	"crypto/rsa"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/burenotti/rtu-it-lab-recruit/model"
 	"time"
 )
 
